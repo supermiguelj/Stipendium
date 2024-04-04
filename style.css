@@ -1,0 +1,59 @@
+.button {
+  background-color: #5EC257;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+}
+
+.tab-content {
+  text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    background: rgb(43, 42, 51);
+    color:#d7d5d5;
+  }
+  .button{
+    color:#d7d5d5
+  }
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.scrollable {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
